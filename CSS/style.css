@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    background: white;
+    justify-content: space-around;
+    padding:20px;
+    flex-direction: row;
+    position: absolute;
+}
+.menu1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: none;
+    text-decoration: none;
+    color: rgb(17, 17, 58);
+    font-size: 20px;
+    font-weight: bold;
+}
+.caja_producto{
+    display: flex;
+    width: 97%;
+    height: 500vh;
+    background:rgb(211, 210, 210);
+    border: 20px solid rgb(173, 173, 173);
+    border-radius: 10px;
+    flex-direction: column;
+}
+.caja_comprimida1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background: purple;
+}
+.referencia{
+    display: flex;
+    width: 45vh;
+    height: 95%;
+    background: red;
+    margin: 10px;
+    flex-direction: column
+}
+.productos_mostrados1{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    padding: 40px 0 0 0;
+}
+.img_productos{
+    width: 25vh;
+    height: 25vh;
+    border: 5px solid rgb(161, 161, 161);
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 120vh;
+    background: blue;
+    margin: 10vh 0 0 3vh;
+}
+.img_principal{
+    width: 50vh;
+    height: 60vh;
+    border: 10px solid rgb(161, 161, 161);
+}
+.articulo1{
+    width: 30vh;
+}
